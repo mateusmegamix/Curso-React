@@ -1,25 +1,25 @@
 import React from 'react'
-
-import Logo from './components/img/farm.PNG'
+import Header from './components/Header'
+import Corpo from './components/Corpo'
+import Dados from './components/Dados'
+import './App.css'
 
 export default function App() {
 
-  const nome=()=>{
-    return ('Mateus')
+  // const meunome = "Mateus"
+  // const curso = "Curso de React"
+
+  const textoDestaque = {
+    color: '#00f',
+    fontSize: '3em'
   }
 
-  // const meunome = "Mateus"
-  //const curso = "Curso de React"
-
   return (
-    <section>
-      <header>
-        <p>{'Meu nome: ' + nome()}</p>
-        <p>Axie</p>
-      </header>
-      <section>
-        <img src={Logo}/>
-      </section>-
+    <section className='caixa'>
+      <h1 style={{color: '#f00', fontSize: '3em'}}>Curso</h1>
+      <h2 style={textoDestaque}>React</h2>
+      <p className='texto'>Se inscreva em nosso canal e nos siga no instagram</p>
+      <a href='github/mateuspereira' target='blank'>Github</a>
     </section>
   )
 }
