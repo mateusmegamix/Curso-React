@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Corpo from './components/Corpo'
 import Dados from './components/Dados'
 import './App.css'
+import Relogio from './components/Relogio'
 
 export default function App() {
 
@@ -16,6 +17,7 @@ export default function App() {
 
   return (
     <section className='caixa'>
+      <Relogio />
       <h1 style={{color: '#f00', fontSize: '3em'}}>Curso</h1>
       <h2 style={textoDestaque}>React</h2>
       <p className='texto'>Se inscreva em nosso canal e nos siga no instagram</p>
