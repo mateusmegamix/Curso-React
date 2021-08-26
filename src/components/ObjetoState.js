@@ -4,11 +4,11 @@ export default function Obj() {
 
     const [form, setForm] = useState({"curso":"", "nome":"", "ano":""})
     const handleFormChange=(e)=>{
-        if(e.target.getAttribute('name')=='fnome'){
+        if(e.target.getAttribute('name')==='fnome'){
             setForm({"nome":e.target.value, "curso":form.curso, "ano":form.ano})
-        } else if(e.target.getAttribute('name')=='fcurso'){
+        } else if(e.target.getAttribute('name')==='fcurso'){
             setForm({"nome":form.nome, "curso":e.target.value, "ano":form.ano})
-        } else if(e.target.getAttribute('name')=='fano'){
+        } else if(e.target.getAttribute('name')==='fano'){
             setForm({"nome":form.nome, "curso":form.curso, "ano":e.target.value})
         }
     }
