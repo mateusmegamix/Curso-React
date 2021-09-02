@@ -16,6 +16,7 @@ import Caixa from './components/Contencao/Caixa'
 import Contencao from './components/Contencao/Contencao'
 import Hook from './components/Hook/Hook'
 import Storage from './components/LocalStorage/LocalStorage'
+import CompClasses from './components/ComponentesClasses/CompClasses'
 
 export default function App() {
 
@@ -63,6 +64,8 @@ export default function App() {
         <h1>Megamix</h1>
         <p>Curso de React</p>
       </Caixa> */}
+
+      <CompClasses />
 
       <Hook/>
 

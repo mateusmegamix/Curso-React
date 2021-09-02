@@ -24,7 +24,7 @@ export default function Renderizacao2() {
     const mudarCor=()=>{
         setCor(cor+1)
         if(cor > 2){
-            setCor(0)
+            setCor(0)  
         }
     }
 
