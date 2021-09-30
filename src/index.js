@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import App2 from './App2';
 import reportWebVitals from './reportWebVitals';
+import Calculadora from './Calculadora';
+import JogodaVelha from './JogoVelha';
 
 function tick(){
   ReactDOM.render(
   <React.StrictMode>
-    <App2 />
+    <JogodaVelha />
   </React.StrictMode>,
   document.getElementById('root')
 );
