@@ -6,12 +6,15 @@ import App2 from './App2';
 import reportWebVitals from './reportWebVitals';
 import Calculadora from './Calculadora';
 import JogodaVelha from './JogoVelha';
+import App3 from './App3';
+import AppRoute from './AppRoute';
+import {BrowserRouter} from 'react-router-dom'
 
 function tick(){
   ReactDOM.render(
-  <React.StrictMode>
-    <JogodaVelha />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <App3 />
+  </BrowserRouter>,
   document.getElementById('root')
 );
 }
